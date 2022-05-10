@@ -1,0 +1,88 @@
+/* 기본 css 스타일 시작 */
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ul.skipmenu_list>li>a{
+    width: 1px;
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    position: absolute;
+}
+
+ul.skipmenu_list>li>a:focus{
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    background: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hidden {
+    width: 1px;
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    position: absolute;
+}
+
+
+
+/* 기본 css 속성 끝 */
+
+div#header_wrap{
+    width: 100%;
+    height: 114px;
+    background: -webkit-linear-gradient(top, rgba(44, 44, 44, 1) 0%, rgba(44, 44, 44, 1) 30px, rgba(237, 238, 240, 1) 30px, rgba(237, 238, 240, 1) 114px, rgba(0, 0, 0, 0.8) 114px);
+}
+
+header{
+    width: 980px;
+    height: 100%;
+    margin: 0px auto;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+h1#logo{
+    width: 127px;
+    height: 52px;
+    position: absolute;
+    left: 0px;
+    top: 45px;
+}
+
+nav#topmenu{
+    width: 142px;
+    height: 16px;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
+
+
+ul#topmenu_list{
+    width: 100%;
+    height: 100%;
+}
+
+ul#topmenu_list li{
+    float: left;
+    margin-right: 10px;
+}
+
+ul#topmenu_list li a {
+    color: #acacac;
+    font: normal 10px/16px "Noto Sans KR";
+}
+
+ul#topmenu_list li:last-child {
+    margin-right: 0px;
+}
