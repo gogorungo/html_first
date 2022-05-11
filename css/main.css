@@ -46,18 +46,7 @@ a#prev_btn {
     margin-top: -37px;
 }
 
-div#contents_wrap{
-    width: 100%;
-    min-height: 600px;
-    background: #ececec;
-}
 
-section#contents{
-    width: 980px;
-    height: 100%;
-    margin: 0px auto;
-    padding-top: 70px;
-}
 
 section#useinstall{
     width: 100%;

@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="ko">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>글램쉘</title>
+    <? include_once $_SERVER["DOCUMENT_ROOT"]."/glamshell_rwd/inc/start.html" ?>
 
-    <link rel="stylesheet" href="./css/reset.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/main.css">
 
 </head>
@@ -20,71 +11,9 @@
         <li><a href="#">본문 바로가기</a></li>
         <li><a href="#">하단 바로가기</a></li>
     </ul>
-    <div id="header_wrap">
-        <header>
-            <h1 id="logo"><a href="./index.html" title="글렘쉘 메인 페이지 바로가기"><img src="./images/logo.gif"
-                        alt="글렘쉘 반응형 웹사이트"></a></h1>
-            <nav id="topmenu">
-                <h2 class="hidden">상단빠른메뉴</h2>
-                <ul id="topmenu_list">
-                    <li><a href="#">LOGIN</a></li>
-                    <li><a href="#">JOIN</a></li>
-                    <li><a href="#">SEARCH</a></li>
-                    <li><a href="#">Q&A</a></li>
-                </ul>
-            </nav>
-            <nav id="mainmenu">
-                <h2 class="hidden">메인 메뉴</h2>
-                <ul id="mainmenu_list">
-                    <li>
-                        <a href="#">BRAND</a>
-                        <ul class="submenu_list">
-                            <li><a href="#">BRAND</a></li>
-                            <li><a href="#">DESIGN</a></li>
-                            <li><a href="#">BI</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">COLLECTION</a>
-                        <ul class="submenu_list">
-                            <li><a href="#">BRAND</a></li>
-                            <li><a href="#">DESIGN</a></li>
-                            <li><a href="#">BI</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">STORE</a>
-                        <ul class="submenu_list">
-                            <li><a href="#">BRAND</a></li>
-                            <li><a href="#">DESIGN</a></li>
-                            <li><a href="#">BI</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">REVIEW</a>
-                        <ul class="submenu_list">
-                            <li><a href="#">BRAND</a></li>
-                            <li><a href="#">DESIGN</a></li>
-                            <li><a href="#">BI</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">CUSTOMER</a>
-                        <ul class="submenu_list">
-                            <li><a href="#">BRAND</a></li>
-                            <li><a href="#">DESIGN</a></li>
-                            <li><a href="#">BI</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-            <nav id="mobile_menu">
-                <h2 class="hidden">모바일메뉴</h2>
-                <img src="./images/menu_mobile.png" alt="모바일 메뉴">
-            </nav>
-            <button id="best_btn">WeeklyBest</button>
-        </header>
-    </div>
+
+
+    <? include_once $_SERVER["DOCUMENT_ROOT"]."/glamshell_rwd/inc/header.html" ?>
 
     <!-- 여기까지가 상단 영역-->
 
@@ -155,6 +84,8 @@
             </section>
         </section>
     </div>
+
+    <? include_once $_SERVER["DOCUMENT_ROOT"]."/glamshell_rwd/inc/footer.html" ?>
 
 
 </body>
